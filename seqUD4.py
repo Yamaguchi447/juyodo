@@ -13,7 +13,7 @@ from optuna.trial import FrozenTrial, TrialState
 from sklearn.neighbors import KDTree
 
 
-class SeqUD(BaseSampler):
+class SeqUD2(BaseSampler):
     def __init__(self, param_space, n_runs_per_stage, random_state=None):
         super().__init__()
         np.random.seed(random_state)
